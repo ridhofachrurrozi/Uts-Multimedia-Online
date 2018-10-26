@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+
+<style type="text/css">
+    body,h1{
+        margin: 0;
+        padding: 0;
+        font-family: arial;
+        background-color: gold;
+    }
+
+    .text-container h1{
+        font-size: 150px;
+        color: rgba(255,255,255,.1);
+        background-image: url(5.jpg);
+        background-repeat: repeat-x;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -o-background-clip: text;
+        -ms-background-clip: text;
+        animation: animate 15s linear infinite;
+    }
+    @keyframes animate {
+            0%{
+                background-position: left 0px top 10px;
+            }
+            40%{
+                background-position: left 800px top 10px;
+            }
+        }
+
+    .text-container{
+        margin-top: 17%;
+        text-align: center;
+    } 
+</style>
+
+<body>
+        <div class="text-container">
+                <h1>NO-PROB.</h1>
+            </div>
+</body>
+</html>
